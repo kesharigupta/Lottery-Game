@@ -1,0 +1,74 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+/* Ticket styles */
+.ticket {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    border: 2px solid #333;
+    border-radius: 14px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    margin: 10px auto;
+}
+
+.ticket span {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Button styles */
+button {
+    display: inline-block;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background: linear-gradient(90deg, #2575fc, #6a11cb);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Winning message */
+h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
